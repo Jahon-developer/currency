@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_main">
+            <h1>Currency Converter</h1>
+            <p>Need to make an international business payment?Take a look at our live foreign exchange rates</p>
+            <div class="currency_box">
+                <h1>Make fast and affordable international business payments</h1>
+                <p>Send secure international business payments in XX currencies,all at competitive rates with no hidden fees</p>
+                <div class="currency_calculator">
+                    <div class="currency_from">
+                        <div class="currency_calculator_currInp">
+                            <input type="number" id="from">
+                        </div>
+                        <div class="currency_calculator_currText">
+                            <select name="FromSelect" id="FromSelect">
+                                <option value="USD">USD</option>
+                                <option value="UZS">UZS</option>
+                                <option value="RUB">RUB</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        
+                    </div>
+                    <div class="currency_to">
+                        <div class="currency_calculator_currInp">
+                            <input type="number" id="to" readonly disabled>
+                        </div>     
+                        <div class="currency_calculator_currText">
+                            <select name="toSelect" id="toSelect">
+                                <option value="UZS">UZS</option>
+                                <option value="USD">USD</option>
+                                <option value="RUB">RUB</option>
+                            </select>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="all_currency"></section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
